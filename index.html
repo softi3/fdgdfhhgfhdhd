@@ -416,11 +416,11 @@
                 <div id="player-content">
                     <div id="album-art">
                        <img src="https://i.pinimg.com/736x/10/bd/0b/10bd0b171b2a12749e9cd0ac7ba287a3.jpg" class="active" id="_1">
-                        <img src="https://i.pinimg.com/736x/9a/54/1f/9a541fa2531a4f6cfdb7062511e26cd9.jpg" id="_2">
-                        <img src="https://raw.githubusercontent.com/Quynny810/music/main/3.jpeg" id="_3">
-                        <img src="https://raw.githubusercontent.com/Quynny810/music/main/4.jpg" id="_4">
-                        <img src="https://raw.githubusercontent.com/Quynny810/music/main/1.jpeg" id="_5">
-                         <img src="https://raw.githubusercontent.com/Quynny810/music/main/6.jpg" id="_6">
+                        <img src="https://raw.githubusercontent.com/softi3/fdgdfhhgfhdhd/main/Untitled1813_20241214012048.png" id="_2">
+                        <img src="https://raw.githubusercontent.com/softi3/fdgdfhhgfhdhd/main/Untitled1813_20241214012120.png" id="_3">
+                        <img src="https://raw.githubusercontent.com/softi3/fdgdfhhgfhdhd/main/Untitled1813_20241214012214.png" id="_4">
+                        <img src="https://raw.githubusercontent.com/softi3/fdgdfhhgfhdhd/main/imagem_2024-12-14_014617063.png" id="_5">
+                         <img src="https://raw.githubusercontent.com/softi3/fdgdfhhgfhdhd/main/Untitled1813_20241214012306.png" id="_6">
                         <div id="buffer-box">Buffering ...</div>
                     </div>
                     <div id="player-controls">
@@ -452,15 +452,15 @@
         $(function()
     {
     var playerTrack = $("#player-track"), bgArtwork = $('#bg-artwork'), bgArtworkUrl, albumName = $('#album-name'), trackName = $('#track-name'), albumArt = $('#album-art'), sArea = $('#s-area'), seekBar = $('#seek-bar'), trackTime = $('#track-time'), insTime = $('#ins-time'), sHover = $('#s-hover'), playPauseButton = $("#play-pause-button"),  i = playPauseButton.find('i'), tProgress = $('#current-time'), tTime = $('#track-length'), seekT, seekLoc, seekBarPos, cM, ctMinutes, ctSeconds, curMinutes, curSeconds, durMinutes, durSeconds, playProgress, bTime, nTime = 0, buffInterval = null, tFlag = false, 
-            albums = ['Shoujorei','How Sweet','Super Shy','Ditto','Supernatural','ETA'], 
-            trackNames = ['123.','NewJeans','NewJeans','NewJeans','NewJeans','NewJeans'], 
+            albums = ['better off','shoujorei','falling behind','the perfect pair','glimpse of us','fade'], 
+            trackNames = ['2019','2023','2024','2024','2022','2024'], 
             albumArtworks = ['_1','_2','_3','_4','_5','_6'], 
-            trackUrl = ['https://raw.githubusercontent.com/softi3/fdgdfhhgfhdhd/main/少女レイ ver.EMA [ ezmp3.cc ].mp3',
-                        'https://raw.githubusercontent.com/softi3/fdgdfhhgfhdhd/main/[온스테이지2.0] wave to earth - nouvelle vague [ ezmp3.cc ].mp3',
-                        'https://raw.githubusercontent.com/Quynny810/music/main/%20Super%20Shy.mp3',
-                        'https://raw.githubusercontent.com/Quynny810/music/main/%20Ditto.mp3',
-                        'https://raw.githubusercontent.com/Quynny810/music/main/%20Supernatural.mp3', 
-                        'https://raw.githubusercontent.com/Quynny810/music/main/ETA.mp3'], 
+            trackUrl = ['https://raw.githubusercontent.com/softi3/fdgdfhhgfhdhd/main/better off (live from the internet) [ ezmp3.cc ].mp3',
+                        'https://raw.githubusercontent.com/softi3/fdgdfhhgfhdhd/main/少女レイ ver.EMA [ ezmp3.cc ].mp3',
+                        'https://raw.githubusercontent.com/softi3/fdgdfhhgfhdhd/main/Laufey - Falling Behind (Official Audio) [ ezmp3.cc ].mp3',
+                        'hhttps://raw.githubusercontent.com/softi3/fdgdfhhgfhdhd/main/Beabadoobee - the perfect pair (Official Live Video) [ ezmp3.cc ] (1).mp3',
+                        'https://raw.githubusercontent.com/softi3/fdgdfhhgfhdhd/main/Joji -  Glimpse of Us [ ezmp3.cc ].mp3', 
+                        'https://raw.githubusercontent.com/softi3/fdgdfhhgfhdhd/main/Holywatr - fade (Official Video) [ ezmp3.cc ].mp3'], 
             playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
         function playPause()
         {
